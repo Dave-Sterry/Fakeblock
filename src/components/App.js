@@ -1,9 +1,10 @@
 import React from "react";
 import Header from "./Header";
 import './App.css';
-import Container from 'react-bootstrap/Container';
+import {Container, Row, Col} from 'react-bootstrap';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Feedlist from './Feedlist';
+import Profile from "./Profile";
 
 function App() {
   return (
@@ -12,7 +13,16 @@ function App() {
         <Jumbotron>
           <Header />
         </Jumbotron>
+
+        <Row>
+          <Col>
+        <Profile />
+        </Col>
+        <Col>
         <Feedlist />
+        </Col>
+        </Row>
+
       </Container>
     </React.Fragment>
   );
