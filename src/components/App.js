@@ -3,6 +3,7 @@ import Header from "./Header";
 import './App.css';
 import Container from 'react-bootstrap/Container';
 import Jumbotron from 'react-bootstrap/Jumbotron';
+import Feedlist from './Feedlist';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Jumbotron>
           <Header />
         </Jumbotron>
+        <Feedlist />
       </Container>
     </React.Fragment>
   );

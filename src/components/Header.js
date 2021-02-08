@@ -1,8 +1,8 @@
 import React from "react";
-import Home from "./home";
-import Messages from "./messages";
-import Notifications from "./notifications";
-import {Container, Row, Col} from "react-bootstrap"
+import Home from "./Home";
+import Messages from "./Messages";
+import Notifications from "./Notifications";
+import {Container, Row, Col} from "react-bootstrap";
 
 function Header(){
   return(
